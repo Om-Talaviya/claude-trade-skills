@@ -1,0 +1,39 @@
+{
+  "test_cases": [
+    {
+      "id": "eval-gst-lut-01",
+      "name": "Export under LUT decision and endorsement verification",
+      "skill": "gst-export-compliance",
+      "input_prompt": "I run a leather footwear manufacturing unit in Agra, India with GSTIN 09AAAAA0000A1Z5. I have an order worth $50,000 from a buyer in Munich, Germany. Should I pay IGST or export under LUT? What declaration must appear on my invoice?",
+      "expected_assertions": [
+        "Recommends Option A (Export under LUT without payment of IGST) to preserve working capital",
+        "Mentions Form GST RFD-11 valid for the financial year",
+        "Provides exact statutory endorsement string for LUT export",
+        "Explains 3-month export completion window for physical goods"
+      ]
+    },
+    {
+      "id": "eval-gst-icegate-error-02",
+      "name": "ICEGATE SB005 error resolution",
+      "skill": "gst-export-compliance",
+      "input_prompt": "My IGST refund of ₹4,50,000 is stuck on ICEGATE showing error SB005 for invoice EXP-2026/012 from Nhava Sheva. How do I resolve this?",
+      "expected_assertions": [
+        "Identifies SB005 as Invoice Number / Date / Port Code mismatch between GSTR-1 Table 6A and Customs Shipping Bill",
+        "Instructs how to file an amendment in GSTR-1 using Table 9A (Amended Export Invoices)",
+        "Advises verifying 6-character port code (e.g., INNSA1)"
+      ]
+    },
+    {
+      "id": "eval-doc-gen-india-03",
+      "name": "India export commercial invoice and packing list generation",
+      "skill": "export-docs-generator",
+      "input_prompt": "Draft a CIF commercial invoice and packing list for 500 brass home decor lamps shipped from Moradabad, India to a buyer in London, UK. Total value $15,000, under LUT.",
+      "expected_assertions": [
+        "Includes IEC, GSTIN, and State Code in header",
+        "Includes UK Buyer details with UK EORI/VAT field placeholder",
+        "Calculates FOB, Ocean Freight, and Insurance breakdown for CIF Incoterms 2020",
+        "Produces clean markdown tables for both Invoice and Packing List"
+      ]
+    }
+  ]
+}

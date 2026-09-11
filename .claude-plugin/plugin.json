@@ -1,0 +1,37 @@
+{
+  "name": "claude-trade-skills",
+  "version": "1.1.0",
+  "description": "Production-grade, high-precision AI skills for cross-border trade, export documentation, and India GST export compliance (LUT, Rule 96(10), Rule 96B, ICEGATE, RFD-01, Intermediary tax defense, FEMA/EDPMS, EORI, HSN).",
+  "author": "Antigravity & Open Source Community",
+  "homepage": "https://github.com/Om-Talaviya/claude-trade-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Om-Talaviya/claude-trade-skills.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "antigravity",
+    "export-trade",
+    "gst-compliance",
+    "rule-96-10",
+    "fema-edpms",
+    "icegate",
+    "customs",
+    "cross-border-commerce",
+    "invoice-generator"
+  ],
+  "skills": [
+    {
+      "name": "gst-export-compliance",
+      "path": "skills/gst-export-compliance/SKILL.md",
+      "description": "Guides Indian exporters through GST compliance: LUT filing, Rule 96(10) duty-free input bars, Rule 96B foreign exchange non-realization clawback, ICEGATE IGST refunds, GSTR reconciliation, Intermediary service tax traps, and RFD-01 ITC refunds."
+    },
+    {
+      "name": "export-docs-generator",
+      "path": "skills/export-docs-generator/SKILL.md",
+      "description": "Generates export shipping paperwork (commercial invoice, packing list, certificate of origin) tailored for India (IEC/GSTIN/SCOMET), UK/EU (EORI/VAT/TARIC), UAE/GCC, and global trade."
+    }
+  ]
+}
