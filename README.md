@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🌐 Trade Agent Skills (`trade-agent-skills`)
+<img src="assets/banner.png" alt="Claude Trade Skills" width="100%" />
+
+# 🌐 Claude Trade Skills (`claude-trade-skills`)
 
 ### The Missing Cross-Border Trade & Export Compliance Skills for Claude Code, Antigravity, & AI Agents
 
@@ -31,20 +33,13 @@ Almost every existing AI tool, prompt, and skill repository defaults exclusively
 
 When cross-border businesses, freight forwarders, or developers try to generate compliant export documentation or navigate tax incentives outside the US, AI models either hallucinate non-existent forms or fail on mandatory origin compliance:
 
-```
-┌───────────────────────────────────────┬────────────────────────────────────────┐
-│ ❌ Generic AI & Existing Tools        │ ✅ Trade Agent Skills Suite            │
-├───────────────────────────────────────┼────────────────────────────────────────┤
-│ • Defaults to US EIN & CBP formatting │ • Country-accurate Tax IDs (IEC, GSTIN,│
-│                                       │   EORI, VAT, TRN)                      │
-│ • Hallucinates US sales tax on export │ • Implements Section 16 Zero-Rated     │
-│                                       │   Supply & Rule 96A LUT mechanics      │
-│ • No concept of ICEGATE / Shipping    │ • Error diagnostics for SB001–SB006    │
-│   Bill automated IGST refunds         │   Customs EDI transmission issues      │
-│ • Produces vague invoice templates    │ • Incoterms® 2020 breakdowns, ISPM-15   │
-│   unusable for customs clearance      │   packing lists, & origin declarations │
-└───────────────────────────────────────┴────────────────────────────────────────┘
-```
+| ❌ Generic AI & Existing Tools | ✅ Claude Trade Skills Suite |
+| :--- | :--- |
+| • **Defaults to US EIN & CBP conventions** | • **Country-accurate Tax IDs**: IEC, GSTIN, EORI, VAT, TRN |
+| • **Hallucinates US sales tax on exports** | • **Zero-Rated Supply Engine**: Implements Section 16 & Rule 96A LUT mechanics |
+| • **No ICEGATE / Customs integration** | • **ICEGATE Error Diagnostics**: Built-in fixes for SB001–SB006 transmission errors |
+| • **Ignores lethal export clawback traps** | • **Rule 96(10) & Rule 96B Safeguards**: Prevents illegal refunds & RBI caution-listing |
+| • **Produces unusable draft invoices** | • **Incoterms® 2020 & ISPM-15 Math**: Validated packing lists, freight, & origin declarations |
 
 ---
 
